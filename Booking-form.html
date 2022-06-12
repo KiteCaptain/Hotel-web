@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>palazoo booking</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        function confirm() {
+          alert("Your requets was submitted successfully");
+        }
+    </script>
     
 </head>
 <body>
-
-
 
 <div class="details-container">
     <div class="form-styles">
@@ -33,10 +36,11 @@
             <option value="conference">Conference room</option>
             <option value="accomodation">Accomodation</option>
             <option value="others">Others</option>
-        </select>
-        <input type="submit" name="submit" value="Submit">
+        </select><br><br>
+        <input type="submit" name="submit" value="Submit" style="background-color: orange;">
         <br><br><br>              
     </form> 
+    <button onclick="confirm()"><a href="index.html" style="background-color: white; color:black;">Back</a></button>
     <br><br>
     <p>To book you can also call +25472610105 or email directly at palazzogardenresort@gmail.com </p>
     </div>
